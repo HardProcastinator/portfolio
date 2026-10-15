@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mark Maniego | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="#hero" class="brand">Mark Maniego</a>
+    <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav-menu">
+      <a href="#hero">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <img src="mark_prof_pic.jpg" alt="Photo of Mark Maniego" class="profile-photo">
+      <div class="hero-text">
+        <h1>Hi, I'm Mark Maniego</h1>
+        <p class="tagline">Web and Mobile App Developer in training</p>
+        <p>
+          I'm a third-year BSIT student at Bulacan State University specializing in
+          Web and Mobile Application Development. I enjoy building apps with Flutter,
+          React, and Firebase, and I also create content on TikTok, Instagram, and YouTube.
+        </p>
+        <a href="#projects" class="btn">See my projects</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="card">
+          <h3>Pokemon Card Creator</h3>
+          <p>A web app built with Firebase Realtime Database that lets users create, view, edit, and delete Pokemon cards (full CRUD).</p>
+          <span class="tags">Firebase · JavaScript · CRUD</span>
+        </article>
+
+        <article class="card">
+          <h3>React Firebase Auth</h3>
+          <p>Login and register pages using Google and email authentication, with protected routes for signed-in users.</p>
+          <span class="tags">React · Firebase Auth</span>
+        </article>
+
+        <article class="card">
+          <h3>Interactive Profile Preview</h3>
+          <p>A Flutter mobile app that shows a profile preview that updates as the user interacts with it.</p>
+          <span class="tags">Flutter · Dart</span>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Let's connect!</p>
+    <ul class="contact-links">
+      <li><a href="mailto:markreezemaniego@gmail.com">markreezemaniego@gmail.com</a></li>
+      <li><a href="https://github.com/HardProcastinator" target="_blank" rel="noopener">GitHub: HardProcastinator</a></li>
+    </ul>
+    <p class="copyright">&copy; 2026 Mark Maniego</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
